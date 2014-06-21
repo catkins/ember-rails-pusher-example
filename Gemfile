@@ -54,6 +54,11 @@ group :development do
 end
 
 group :test, :development do
+  gem 'rspec-rails'
+  gem 'rspec-collection_matchers'
+  gem 'json_spec'
+  gem 'factory_girl_rails', '~> 4.4.0'
+  gem 'database_cleaner'
   gem 'coffee-rails-source-maps'
   gem 'quiet_assets'
 
