@@ -45,25 +45,27 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request' # For Rails chrome inspector plugin
-  gem 'spring-commands-rspec'
   gem 'awesome_print'
   gem 'guard-rspec',      require: false
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
   gem 'rb-fsevent',       require: false
+  gem 'quiet_assets'
 end
 
 group :test, :development do
-  gem 'rspec-rails'
-  gem 'rspec-collection_matchers'
-  gem 'json_spec'
-  gem 'factory_girl_rails', '~> 4.4.0'
-  gem 'database_cleaner'
-  gem 'coffee-rails-source-maps'
-  gem 'quiet_assets'
 
   # Pry is literally the best thing ever
   gem 'pry-rails'
   gem 'pry-stack_explorer'
   gem 'pry-debugger'
+
+  gem 'spring-commands-rspec'
+  gem 'rspec-rails', '~> 3.00'
+  gem 'rspec-collection_matchers'
+  gem 'json_spec'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+
+  gem 'coffee-rails-source-maps'
 end

@@ -279,7 +279,7 @@ DEPENDENCIES
   database_cleaner
   ember-rails
   emblem-rails
-  factory_girl_rails (~> 4.4.0)
+  factory_girl_rails
   figaro
   guard-livereload
   guard-rspec
@@ -297,7 +297,7 @@ DEPENDENCIES
   rb-fsevent
   responders
   rspec-collection_matchers
-  rspec-rails
+  rspec-rails (~> 3.00)
   sass-rails (~> 4.0.3)
   slim-rails
   spring
