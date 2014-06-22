@@ -66,6 +66,7 @@ group :test, :development do
   gem 'json_spec'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
-
   gem 'coffee-rails-source-maps'
 end
+
+gem 'shoulda-matchers', group: :test
