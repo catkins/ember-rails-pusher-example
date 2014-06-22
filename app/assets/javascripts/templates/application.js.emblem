@@ -9,8 +9,10 @@
       a.navbar-brand href="#"  Realtime rails
     .collapse.navbar-collapse
       ul.nav.navbar-nav
-        li.active
+        link-to 'index' tagName='li' activeClass='active'
           link-to 'Home' 'index'
+        link-to 'topics.index' tagName='li' activeClass='active'
+          link-to 'Topics' 'topics.index'
 
 .container
   outlet
