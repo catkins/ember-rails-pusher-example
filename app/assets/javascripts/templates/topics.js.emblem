@@ -1,0 +1,14 @@
+.row
+  .col-sm-3
+    h3 Topics
+
+    link-to 'topics.new' class='btn btn-primary'
+      ' Create Topic
+
+    ul
+      each topic in controller
+        li
+          link-to topic.name 'topic' topic
+
+  .col-sm-9
+    outlet

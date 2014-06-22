@@ -1,0 +1,8 @@
+.jumbotron
+  h1 Realtime Rails
+
+  p With special guests..
+
+  ul
+    li EmberJS
+    li Pusher
