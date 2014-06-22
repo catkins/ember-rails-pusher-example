@@ -1,14 +1,15 @@
 .row
   .col-sm-3
-    h3 Topics
-
     link-to 'topics.new' class='btn btn-primary'
       ' Create Topic
+    h3 Topics
 
-    ul
+
+    .list-group
       each topic in controller
-        li
-          link-to topic.name 'topic' topic
+        link-to 'topic' topic class='list-group-item'
+          .badge= topic.comments.length
+          = topic.name
 
   .col-sm-9
     outlet

@@ -1,5 +1,10 @@
 h3= name
 
+.well= description
+
+h4 Comments
 ul
   each comment in comments
     li= comment.body
+  else
+    | No comments!
