@@ -30,9 +30,9 @@ gem 'pusher'
 gem 'slim-rails'
 
 # Assets
-gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'sass-rails', '~> 4.0.3'
+gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.0.0'
 
 # Ember
