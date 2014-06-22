@@ -6,5 +6,5 @@
 #= require realtime_rails
 
 # for more details see: http://emberjs.com/guides/application/
-window.RealtimeRails = Ember.Application.create()
+window.App = Ember.Application.create()
 

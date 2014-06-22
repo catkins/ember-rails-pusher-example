@@ -1,7 +1,7 @@
-RealtimeRails.ApplicationStore = DS.Store.extend({
+App.ApplicationStore = DS.Store.extend({
 
 })
 
-RealtimeRails.ApplicationAdapter = DS.ActiveModelAdapter.extend({
+App.ApplicationAdapter = DS.ActiveModelAdapter.extend({
 
 })
