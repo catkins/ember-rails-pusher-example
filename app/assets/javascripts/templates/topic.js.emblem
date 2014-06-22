@@ -3,8 +3,17 @@ h3= name
 .well= description
 
 h4 Comments
-ul
+ul.list-unstyled
   each comment in comments
-    li= comment.body
+    li
+      p= comment.body
   else
     | No comments!
+
+h4 Add Comment
+
+form.form novalidate=true submit='addComment'
+  .form-group
+    = textarea value=controller.newComment class='form-control' disabled=isAddingComment rows='3'
+  .form-group
+    button.form-control.btn.btn-primary Save
